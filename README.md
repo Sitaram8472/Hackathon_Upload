@@ -1,12 +1,38 @@
-# React + Vite
+# Hackathon Upload Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hackathon Banner](./path-to-your-image.png) <!-- replace with your uploaded image path -->
 
-Currently, two official plugins are available:
+This is a **React + Vite** project for a Hackathon event website.  
+It includes sections like Home, Timeline, Domains, Rules, Prize, Sponsors, Coordinators, Contact, and fun UI effects like **falling flowers and jhunri**. Tailwind CSS is used for styling, and ESLint is configured for code quality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Setup & Installation](#setup--installation)
+- [Running the Project](#running-the-project)
+- [Tailwind CSS Setup](#tailwind-css-setup)
+- [ESLint Configuration](#eslint-configuration)
+- [Components Overview](#components-overview)
+- [Google Form Integration](#google-form-integration)
+- [Deploy](#deploy)
+- [License](#license)
+
+---
+
+## Features
+
+- Sticky **header** with desktop and mobile hamburger menu.
+- Sections: **Home, Timeline, Domains, Rules, Prize, Sponsors, Coordinators, Contact**.
+- Animated **falling flowers & jhunri** across the page.
+- **Google Form** registration.
+- Smooth scrolling to anchors.
+- Fully responsive design.
+- Tailwind CSS for modern styling.
+
+---
+
+## Project Structure
+
