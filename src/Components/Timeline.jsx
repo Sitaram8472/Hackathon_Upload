@@ -5,8 +5,14 @@ const Timeline = () => {
     { date: "August 19, 2025", title: "Registration Starts" },
     { date: "September 15, 2025", title: "Registration Ends" },
     { date: "September 22, 2025", title: "Announcement of Shortlisted Teams" },
-    { date: "September 28, 2025", title: "Pre Mentoring Session for Shortlisted Teams" },
-    { date: "October 7, 2025", title: "Hackathon Begins at St. Joseph's Campus" },
+    {
+      date: "September 28, 2025",
+      title: "Pre Mentoring Session for Shortlisted Teams",
+    },
+    {
+      date: "October 7, 2025",
+      title: "Hackathon Begins at St. Joseph's Campus",
+    },
     { date: "October 7, 2025", title: "First and Second Round of Evaluation" },
     { date: "October 8, 2025", title: "Third Round of Evaluation" },
     { date: "October 8, 2025", title: "Valedictory and Prize Distribution" },

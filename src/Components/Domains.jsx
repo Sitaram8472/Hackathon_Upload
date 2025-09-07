@@ -2,11 +2,26 @@ import React from "react";
 
 const Domains = () => {
   const domains = [
-    { name: "Artificial Intelligence", desc: "Solve challenges using AI & ML models." },
-    { name: "Web Development", desc: "Innovative websites and web apps for real-world problems." },
-    { name: "Blockchain", desc: "Decentralized apps, smart contracts & secure systems." },
-    { name: "Healthcare Tech", desc: "Build solutions to improve health & wellness." },
-    { name: "Cybersecurity", desc: "Strengthen digital security with innovative tools." },
+    {
+      name: "Artificial Intelligence",
+      desc: "Solve challenges using AI & ML models.",
+    },
+    {
+      name: "Web Development",
+      desc: "Innovative websites and web apps for real-world problems.",
+    },
+    {
+      name: "Blockchain",
+      desc: "Decentralized apps, smart contracts & secure systems.",
+    },
+    {
+      name: "Healthcare Tech",
+      desc: "Build solutions to improve health & wellness.",
+    },
+    {
+      name: "Cybersecurity",
+      desc: "Strengthen digital security with innovative tools.",
+    },
   ];
 
   return (

@@ -3,16 +3,37 @@ import { Trophy, Award, Briefcase, Rocket } from "lucide-react"; // icons for st
 
 const Prize = () => {
   const prizes = [
-    { place: "Champion", title: "First Prize", amount: "₹60,000", highlight: true },
+    {
+      place: "Champion",
+      title: "First Prize",
+      amount: "₹60,000",
+      highlight: true,
+    },
     { place: "1st Runner-up", title: "Second Prize", amount: "₹40,000" },
     { place: "2nd Runner-up", title: "Third Prize", amount: "₹25,000" },
   ];
 
   const extras = [
-    { icon: "🎓", title: "Internship Program", desc: "Internship stipend worth ₹30,000" },
-    { icon: "📜", title: "Certification Vouchers", desc: "Free course vouchers worth ₹16,000 for all from DADB" },
-    { icon: "💼", title: "Job Opportunities", desc: "Exciting job offers from DATA PATTERNS for top performers" },
-    { icon: "🚀", title: "Career Boost", desc: "Exclusive networking with industry leaders and mentors" },
+    {
+      icon: "🎓",
+      title: "Internship Program",
+      desc: "Internship stipend worth ₹30,000",
+    },
+    {
+      icon: "📜",
+      title: "Certification Vouchers",
+      desc: "Free course vouchers worth ₹16,000 for all from DADB",
+    },
+    {
+      icon: "💼",
+      title: "Job Opportunities",
+      desc: "Exciting job offers from DATA PATTERNS for top performers",
+    },
+    {
+      icon: "🚀",
+      title: "Career Boost",
+      desc: "Exclusive networking with industry leaders and mentors",
+    },
   ];
 
   return (
@@ -25,7 +46,8 @@ const Prize = () => {
         Prize Distribution
       </h2>
       <p className="text-lg text-gray-600 mb-12 text-center max-w-2xl">
-        Compete for extraordinary rewards that will accelerate your professional journey 🚀
+        Compete for extraordinary rewards that will accelerate your professional
+        journey 🚀
       </p>
 
       {/* Prize Cards */}
@@ -39,7 +61,9 @@ const Prize = () => {
                 : "bg-white border-sky-300"
             } hover:shadow-xl transition`}
           >
-            <h3 className="text-xl font-semibold text-gray-800">{prize.title}</h3>
+            <h3 className="text-xl font-semibold text-gray-800">
+              {prize.title}
+            </h3>
             <p className="text-sky-600 font-bold">{prize.place}</p>
             <p className="text-3xl font-extrabold mt-3">{prize.amount}</p>
           </div>
@@ -62,7 +86,9 @@ const Prize = () => {
           >
             <span className="text-3xl">{item.icon}</span>
             <div>
-              <h4 className="text-lg font-semibold text-gray-800">{item.title}</h4>
+              <h4 className="text-lg font-semibold text-gray-800">
+                {item.title}
+              </h4>
               <p className="text-gray-600">{item.desc}</p>
             </div>
           </div>
@@ -71,7 +97,8 @@ const Prize = () => {
 
       {/* Footer Text */}
       <p className="mt-12 text-center text-lg text-gray-700 font-medium max-w-3xl">
-        Boost your career by taking part in this exciting event that offers amazing rewards and career opportunities 🌟
+        Boost your career by taking part in this exciting event that offers
+        amazing rewards and career opportunities 🌟
       </p>
     </section>
   );

@@ -28,7 +28,9 @@ const Rule = () => {
               key={index}
               className="flex items-start gap-4 p-4 border-b last:border-b-0 hover:bg-sky-50 rounded-lg transition"
             >
-              <span className="font-bold text-sky-600 text-xl">#{index + 1}</span>
+              <span className="font-bold text-sky-600 text-xl">
+                #{index + 1}
+              </span>
               <p>{rule}</p>
             </li>
           ))}
