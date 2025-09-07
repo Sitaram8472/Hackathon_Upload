@@ -17,8 +17,6 @@ It includes sections like Home, Timeline, Domains, Rules, Prize, Sponsors, Coord
 - [ESLint Configuration](#eslint-configuration)
 - [Components Overview](#components-overview)
 - [Google Form Integration](#google-form-integration)
-- [Deploy](#deploy)
-- [License](#license)
 
 ---
 
@@ -36,3 +34,35 @@ It includes sections like Home, Timeline, Domains, Rules, Prize, Sponsors, Coord
 
 ## Project Structure
 
+
+src/
+├─ Components/
+│ ├─ Header.jsx
+│ ├─ Home.jsx
+│ ├─ Timeline.jsx
+│ ├─ Domains.jsx
+│ ├─ Rule.jsx
+│ ├─ Prize.jsx
+│ ├─ Sponsars.jsx
+│ ├─ Contact.jsx
+│ ├─ FallingFlowers.jsx
+├─ App.jsx
+├─ main.jsx
+├─ index.css
+
+## Setup & Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/hackathon-upload.git
+cd hackathon-upload
+
+npm install
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+npm install -D eslint eslint-plugin-react eslint-plugin-react-hooks
+npm install react-icons
+npm run dev
